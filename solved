@@ -1,0 +1,83 @@
+Q.1 What’s Box Model in CSS ? 
+
+Ans -The box model in CSS is a design concept that represents how elements are structured and displayed on a web page. It consists of four layers: content, padding, border, and margin. Each layer contributes to the overall size and spacing of the element.
+
+
+Q.2 What are the Different Types of Selectors in CSS & what are the advantages of them?
+
+Ans - Different types of selectors in CSS include element selectors, class selectors, ID selectors, attribute selectors, pseudo-classes, and pseudo-elements. They allow targeting specific elements or groups of elements for styling. Advantages include flexible targeting, reusable styles, specificity control, and the ability to apply styles based on different conditions or states of elements.
+
+Q.3 What is VW/VH ?
+
+Ans - VW (viewport width) and VH (viewport height) are units of measurement in CSS that represent a percentage of the viewport's width and height, respectively.
+
+1 VW is equal to 1% of the viewport width, and 1 VH is equal to 1% of the viewport height. They are commonly used in responsive web design to create fluid and dynamic layouts that adjust based on the size of the viewport.
+
+Q.4 Whats difference between Inline, Inline Block and block ?
+
+Ans -Inline elements flow within the content and do not create line breaks. Inline-block elements have block-like properties but flow inline. Block elements create line breaks and take up the full available width.
+
+
+Q.5 How is Border-box different from Content Box?
+
+In the "border-box" box-sizing model, the total width and height of an element include its content, padding, and border. In the "content-box" model, the width and height are calculated based on the content size only, excluding padding and border.
+
+
+Q.6 What’s z-index and How does it Function ?
+
+Ans - z-index is a CSS property that controls the stacking order of elements on the z-axis. Elements with a higher z-index value are placed above elements with lower values, allowing control over their overlapping and visibility.
+
+
+Q.8 Difference between absolute and relative and sticky and fixed position explain with example.
+
+Ans - 
+The main differences between absolute and relative positioning, as well as sticky and fixed positioning, are as follows:
+
+Absolute Positioning: An element with absolute positioning is positioned relative to its nearest positioned ancestor or the initial containing block. It is taken out of the normal flow of the document. Example:
+css
+
+.parent {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+Relative Positioning: An element with relative positioning is positioned relative to its normal position. It remains in the normal flow of the document. Example:
+css
+
+.child {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+Fixed Positioning: An element with fixed positioning is positioned relative to the viewport and does not move when the page is scrolled. Example:
+css
+
+.child {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+Sticky Positioning: An element with sticky positioning is positioned based on the user's scroll position. It behaves like relative positioning until the element reaches a certain threshold, then it becomes fixed. Example:
+css
+
+.child {
+  position: sticky;
+  top: 50px;
+}
+In summary, absolute positioning is relative to its nearest positioned ancestor, relative positioning maintains the element's normal flow, fixed positioning is relative to the viewport, and sticky positioning behaves like relative positioning until a certain threshold is reached.
+
+
+
+Q.10 Build Responsive Layout both desktop and mobile and Tablet, see below image for reference ?
+
+Ans - 
+
+
+
+
+
+
